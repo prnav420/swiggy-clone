@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    height: 80px;
+    background-color: #ffff;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow:0 2px 4px 0 rgba(0,0,0,.1);
+    padding: 0 20px;
+
+}
+
+.navbar .nav{
+    position: relative;
+    display: flex;
+    max-width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.nav .left{
+display: flex;
+align-items: center;
+column-gap: 35px;
+}
+
+.left .loction-div{
+
+}
+
+.loction-div .other{
+    padding-bottom: 2px;
+    font-weight: 700;
+    color: #282c3f;
+    padding-bottom: 2px;
+    border-bottom: 2px solid  #282c3f ;
+}
+
+.loction-div .other:hover{
+    border-bottom: 2px solid  orange;
+color: orange;
+cursor: pointer;
+}
